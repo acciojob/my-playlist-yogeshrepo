@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #cccccc;
+}
+.player_one{
+	display: block;
+	background-color: white;
+	padding: 1rem;
+}
+a{
+	text-decoration:none;
+	color: #cccccc;
+}
+.player_two{
+	background-color: white;
+	margin: auto;
+	text-align:center;
+	display:inline-block;
+}
+
