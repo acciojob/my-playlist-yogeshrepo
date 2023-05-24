@@ -2,13 +2,15 @@
 *{
 	box-sizing: border-box;
 }
+h1{
+	text-align:center;
+}
 body{
 	background-color: #cccccc;
 }
 .player_one{
-	display: block;
+	border: 1px solid gray;
 	background-color: white;
-	padding: 1rem;
 }
 a{
 	text-decoration:none;
@@ -16,8 +18,9 @@ a{
 }
 .player_two{
 	background-color: white;
-	margin: auto;
-	text-align:center;
 	display:inline-block;
+}
+li{
+	list-style-type:none;
 }
 
